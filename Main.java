@@ -15,6 +15,7 @@ public static void main(String[] args) {
 	        casos.add(".document");
 	        casos.add(".on");
 	        casos.add("///");
+		casos.add("script:")
 	        
 	        if(input.contains("<") && input.contains("</") && input.contains(">")) {
 	        	input = "";
